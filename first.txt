@@ -1,0 +1,13 @@
+### please type this line
+
+chmod +x get_data.bash
+
+./get_data.bash
+
+cd Code
+
+python3 Segment_extractor.py [Dataset_name]   # CPSC_extra, Chapman, Opportunity
+
+python3 SEAL_predictor.py [Dataset_name]   # CPSC_extra, Chapman, Opportunity
+
+python3 SEAL_evaluation.py [Dataset_name]   # CPSC_extra, Chapman, Opportunity
